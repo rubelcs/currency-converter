@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="mainBody">
+  <div class="dashboardWithNavbar">
+    <!-- Navbar -->
+    <div class="holeNavbar">
+      <div class="navbarContent">
+        <div>
+            <h1 class="heading">Currency Converter</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fatherInputGroup">
+    <div class="input-group specific-card">
+      <div id="errorMessageContainer"></div>
+      <div style="display: flex; width: 100%; align-items: center;">
+        <input style="width: 100%;" type="text" name="" id="source" class="source-currency" placeholder="Source currency will be displayed here"></input>
+
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="84"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h13M12 5l7 7-7 7" />
+</svg>
+
+        <input style="width: 100%;" type="text" name="" id="destination" class="source-currency" placeholder="Destination Currency will be displayed here."></input>
+      </div>
+
+      <input type="text" name="" id="currentExchangeRate" class="source-currency" placeholder="Exchange Rate"></input>
+
+      <input type="text" name="" id="calculationTimestamp" class="source-currency" placeholder="Date of Calculation"></input>
+
+      <input type="text" name="" id="update" class="source-currency" placeholder="Last Exchange Rate Update"></input>
+
+      <input type="text" name="" id="amountoftransaction" class="source-currency" placeholder="Converted Amount"></input>
+
+      <button class='exchangeingButton' id="exchangeingButton">Start</button>
+    </div>
+  </div>
+
+    
+  
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+.mainBody {
+  background: white;
+  height: 100%;
+}
+
+.heading {
+  color: black;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+.holeNavbar {
+  width: 100%;
+  color: white;
+}
+.navbarContent {
+  display: flex;
+  justify-content: center;
+}
+.source-currency {
+  padding: 10px;
+  border: 0;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  display: grid;
+}
+.fatherInputGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+  .specific-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    transition-duration: 300ms;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50%;
+  }
+
+  .specific-card:hover {
+    padding: 20px;
+    border-radius: 4px;
+    transition-duration: 300ms;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50%;
+  }
+  #exchangeTitlePC {
+    display: none;
+  }
+  #exchangeTitleTab {
+    display: none;
+  }
+  #exchangeTitleMob {
+    display: block;
+  }
+}
+
+/* Tablets (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .specific-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    transition-duration: 300ms;
+    width: 80%;
+    height: 50%;
+  }
+
+  .specific-card:hover {
+    padding: 20px;
+    border-radius: 4px;
+    transition-duration: 300ms;
+    width: 80%;
+    height: 50%;
+  }
+  #exchangeTitlePC {
+    display: none;
+  }
+  #exchangeTitleTab {
+    display: block;
+  }
+  #exchangeTitleMob {
+    display: none;
+  }
+}
+
+/* Large screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .specific-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    transition-duration: 300ms;
+    width: 60%;
+    height: 40%;
+  }
+
+  .specific-card:hover {
+    padding: 20px;
+    border-radius: 4px;
+    transition-duration: 300ms;
+    width: 60%;
+    height: 40%;
+  }
+  #exchangeTitlePC {
+    display: block;
+  }
+  #exchangeTitleTab {
+    display: none;
+  }
+  #exchangeTitleMob {
+    display: none;
+  }
+}
+
+.exchangeingButton {
+  color: #fff;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* transition-duration: 300ms; */
+  border: 0;
+  background-color: #008cba;
+}
+.exchangeingButton:hover {
+  color: #fff;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 0;
+  cursor: pointer;
+}
